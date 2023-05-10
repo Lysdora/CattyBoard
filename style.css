@@ -132,10 +132,12 @@ ul li {
 
  .grid-album {
   gap: 10px;
+  
  }
 
  .grid-img {
  width: 250px;
+ 
  
  }
 
@@ -244,7 +246,13 @@ footer a {
  }
 
  .grid-album {
-  gap: 10px;
+  gap: 15px;
+  /* margin-bottom: 10px; */
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
 
  .grid-img {
